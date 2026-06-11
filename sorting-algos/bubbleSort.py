@@ -15,3 +15,4 @@ def bubble_sort(nums:list[int]) -> list[int]:
 
 arrayOfNumbers = [12,332,22,10,5]
 bubble_sort(arrayOfNumbers)
+
