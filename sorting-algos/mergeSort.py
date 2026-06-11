@@ -17,6 +17,16 @@ def merge_sort(nums: list[int]) -> list[int]:
                 j += 1 
 
             k+=1    
+
+            while i < len(leftSide):
+             nums[k] = leftSide[i]
+             i += 1
+             k += 1
+ 
+        while j < len(rightSide):
+            nums[k] = rightSide[j]
+            j += 1
+            k += 1
         
     
                    
@@ -24,6 +34,6 @@ def merge_sort(nums: list[int]) -> list[int]:
     pass
 
 
-array = [20,15,10,5]
+array = [20,15,10]
 merge_sort(array)
 print('sorted array:', array)
